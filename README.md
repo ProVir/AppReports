@@ -5,7 +5,7 @@
 [![Platform](https://cocoapod-badges.herokuapp.com/p/AppReports/badge.png)](http://cocoapods.org/pods/AppReports)
 [![License](https://cocoapod-badges.herokuapp.com/l/AppReports/badge.png)](https://github.com/ProVir/AppReports/blob/master/LICENSE)
 
-Reports events and errors helper class.
+Reports events and errors helper framework.
 Write and use for swift.
 You can write helper on swift with support objc as wrapper for this class.
 
