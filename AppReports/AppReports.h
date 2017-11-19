@@ -6,7 +6,7 @@
 //  Copyright © 2017 ProVir. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
 //! Project version number for AppReports.
 FOUNDATION_EXPORT double AppReportsVersionNumber;
