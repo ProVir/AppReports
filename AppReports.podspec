@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AppReports"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Reports events and errors helper class"
 
   s.description  = <<-DESC

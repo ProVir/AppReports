@@ -71,7 +71,13 @@ open class AppReportsCore: NSObject {
         logDateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
         logDateFormatter.dateFormat = settings.logTimeFormat
         
+        pthread_mutex_init(&mutex, nil)
+        
         super.init()
+    }
+    
+    deinit {
+        pthread_mutex_destroy(&mutex)
     }
     
     
