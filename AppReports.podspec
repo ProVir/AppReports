@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AppReports"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "Reports events and errors helper class"
 
   s.description  = <<-DESC
@@ -15,7 +15,7 @@ You can write helper on swift with support objc as wrapper for this class.
   s.author       = { "ViR (Vitaliy Korotkiy)" => "admin@provir.ru" }
   s.source       = { :git => "https://github.com/ProVir/AppReports.git", :tag => "#{s.version}" }
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'

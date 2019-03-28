@@ -30,8 +30,8 @@ This framework is safe thread.
 ## Requirements
 
 - iOS 8.0+
-- Xcode 9.0
-- Swift 4.0
+- Xcode 10.2
+- Swift 5.0
 
 
 ## Communication
@@ -52,14 +52,13 @@ This framework is safe thread.
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1.0+ is required to build AppReports 1.0.0+.
+> CocoaPods 1.6.0+ is required to build AppReports 1.0.0+.
 
 To integrate AppReports into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
-use_frameworks!
 
 target '<Your Target Name>' do
   pod 'AppReports', '~> 1.0'

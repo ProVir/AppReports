@@ -59,17 +59,17 @@ public struct AppReportsErrorData {
 public extension AppReportsGenericError where TypeErrorData == AppReportsErrorData {
     
     ///Base function for report errors.
-    public func report(error:Error?, title:String?, options:AppReportsErrorData.Options, userInfo:[String:Any]? = nil, bigData:Any? = nil) {
+    func report(error:Error?, title:String?, options:AppReportsErrorData.Options, userInfo:[String:Any]? = nil, bigData:Any? = nil) {
         reportError(AppReportsErrorData(error: error, title: title, options: options, userInfo: userInfo, bigData: bigData))
     }
     
     ///Report Error object with custom additional data.
-    public func reportError(_ error:Error, userInfo:[String:Any]? = nil) {
+    func reportError(_ error:Error, userInfo:[String:Any]? = nil) {
         reportError(AppReportsErrorData(error: error, userInfo: userInfo))
     }
     
     ///Report error as string with custom additional data.
-    public func reportTitleError(_ title:String, userInfo:[String:Any]? = nil) {
+    func reportTitleError(_ title:String, userInfo:[String:Any]? = nil) {
         reportError(AppReportsErrorData(title: title, userInfo: userInfo))
     }
 }

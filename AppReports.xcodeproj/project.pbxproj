@@ -14,6 +14,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50A1C658224D61E4003A8554 /* AppReports.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppReports.podspec; sourceTree = "<group>"; };
+		50A1C65A224D6214003A8554 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50A1C65B224D6214003A8554 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		50A900001FC050CC00750ABF /* AppReportsGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReportsGeneric.swift; sourceTree = "<group>"; };
 		50A900011FC050CC00750ABF /* AppReportsCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReportsCore.swift; sourceTree = "<group>"; };
 		50A9FFD81FBD747F00750ABF /* AppReports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppReports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +39,9 @@
 		50A9FFCE1FBD747F00750ABF = {
 			isa = PBXGroup;
 			children = (
+				50A1C658224D61E4003A8554 /* AppReports.podspec */,
+				50A1C65A224D6214003A8554 /* README.md */,
+				50A1C65B224D6214003A8554 /* LICENSE */,
 				50A9FFDA1FBD747F00750ABF /* AppReports */,
 				50A9FFD91FBD747F00750ABF /* Products */,
 			);
@@ -104,7 +110,7 @@
 				TargetAttributes = {
 					50A9FFD71FBD747F00750ABF = {
 						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 0910;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -115,6 +121,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 50A9FFCE1FBD747F00750ABF;
 			productRefGroup = 50A9FFD91FBD747F00750ABF /* Products */;
@@ -286,7 +293,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +316,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

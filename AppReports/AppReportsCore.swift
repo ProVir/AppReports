@@ -221,13 +221,13 @@ public extension AppReportsCore {
     
     ///Add event viewDidAppear in log.
     @objc(logScreenDidAppear:)
-    public func logScreenDidAppear(viewController:AnyObject) {
+    func logScreenDidAppear(viewController:AnyObject) {
         log("Screen Appear: \(NSStringFromClass(type(of: viewController)))")
     }
     
     ///Add event viewDidDisappear in log.
     @objc(logScreenDidDisappear:)
-    public func logScreenDidDisappear(viewController:AnyObject) {
+    func logScreenDidDisappear(viewController:AnyObject) {
         log("Screen Disappear: \(NSStringFromClass(type(of: viewController)))")
     }
 }
@@ -236,17 +236,17 @@ public extension AppReportsCore {
 public extension AppReportsCore {
     
     ///Write new entry in log
-    public static func log(_ str:String) {
+    static func log(_ str:String) {
         coreShared?.log(str)
     }
     
     ///Add event viewDidAppear in log.
-    public static func logScreenDidAppear(viewController:AnyObject) {
+    static func logScreenDidAppear(viewController:AnyObject) {
         coreShared?.logScreenDidAppear(viewController: viewController)
     }
     
     ///Add event viewDidDisappear in log.
-    public static func logScreenDidDisappear(viewController:AnyObject) {
+    static func logScreenDidDisappear(viewController:AnyObject) {
         coreShared?.logScreenDidDisappear(viewController: viewController)
     }
 }
